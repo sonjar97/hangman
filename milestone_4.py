@@ -7,7 +7,7 @@ class Hangman:
     self.num_lives = num_lives
     
     self.word_list = ['Banana', 'Avocado', 'Apple', 'Grapefruit', 'Grapes']
-    self.word = word = random.choice(word_list).lower()
+    self.word = word = random.choice(word_list)
     
     self.word_guessed = []
     self.num_letters = 100
