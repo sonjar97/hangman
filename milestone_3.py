@@ -22,7 +22,7 @@ def ask_for_input():
   
   
 word_list = ['Banana', 'Avocado', 'Apple', 'Grapefruit', 'Grapes']
-word = random.choice(word_list)
+word = random.choice(word_list).lower()
 print(word)
 
 ask_for_input()
