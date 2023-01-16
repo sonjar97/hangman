@@ -15,6 +15,7 @@ class Hangman:
     guess = guess.lower()
     if guess in self.word:
       print('Good guess! {} is in the word.'.format(guess))
+      self.list_of_guesses.append(guess)
   
   
   def ask_for_input(self):
