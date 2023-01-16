@@ -13,7 +13,7 @@ while True:
     print('Invalid letter. Please, enter a single alphabetical character.')
 
 if guess in word:
-  print('Good guess! {} is in the word.'.format(guess)
+  print('Good guess! {} is in the word.'.format(guess))
 else:
   print('Sorry, {} is not in the word. Try again.'.format(guess))
 
