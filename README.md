@@ -23,3 +23,9 @@ if len(guess) == 1 and a.isalpha():
 else:
   print('Oops! That is not a valid input.')
 ```
+
+### Takeaways
+- Use the isalpha() functin and not ASCII
+- The random.choice() function comes in handy when selecting from an item
+
+## Milstone 3
