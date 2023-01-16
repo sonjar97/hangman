@@ -19,7 +19,8 @@ class Hangman:
   
   
   def ask_for_input(self):
-    while True:
+    i = 0
+    while i < 7:
       guess = input('Please enter a single letter: ').lower()
       if not (len(guess) == 1 and guess.isalpha()):
         print('Invalid letter. Please, enter a single alphabetical character.')
@@ -27,4 +28,4 @@ class Hangman:
         print('You already tried that letter!')
       else:
         self.check_guess(guess)
-        break
+      i++
