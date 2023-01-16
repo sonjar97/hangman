@@ -1,2 +1,6 @@
+import random
+
+
 word_list = ['Banana', 'Avocado', 'Apple', 'Grapefruit', 'Grapes']
-print(word_list)
+word = random.choice(word_list)
+print(word)
